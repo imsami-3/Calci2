@@ -16,6 +16,12 @@ public class AppTest
 	}
 	
 	@Test
+        public void twoAndMinusTwoIsZero() throws Exception {
+        int result = app.add(2, -2);
+        assertEquals(result, 0);
+        }
+
+	@Test
 	public void addTrue() {
 		assertEquals(25, app.add(12, 13));
 	}
