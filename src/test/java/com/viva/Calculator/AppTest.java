@@ -18,7 +18,7 @@ public class AppTest
 	@Test
         public void twoAndMinusTwoIsZero() throws Exception {
         int result = app.add(2, -2);
-        assertEquals(result, 1);
+        assertEquals(result, 0);
         }
 
 	@Test
