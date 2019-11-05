@@ -20,6 +20,20 @@ public class AppTest
         int result = app.add(2, -2);
         assertEquals(result, 0);
         }
+	
+	
+	@Test
+        public void threeMinusThreeIsZero() throws Exception {
+        int result = add.sub(3, 3);
+        assertEquals(result, 0);
+         }
+        @Test
+        public void threeMinusMinusThreeIsSix() throws Exception {
+        int result = new Calculator().subtract(3, -3);
+        assertEquals(result, 6);
+        }
+       
+ 
 
 	@Test
 	public void addTrue() {
